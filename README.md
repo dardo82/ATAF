@@ -1,5 +1,5 @@
 # ATAF
-Get and tell ATAF timetables
+Get and speak Florence's busses' timetables
 
 ## Usage
 Run the shell script giving a bus stop code as argument.
