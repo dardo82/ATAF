@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Get and speak Florence's bus timetables
+# Get and speak Florence's bus system timetables
 
 t=$(date '+%s').0; float -F 1 rt=$(($t/(((60*60)/4)*10))); s=$(echo -n ${$(($rt*((60*60)/4)*10))/./}r3x1m_ataf | openssl sha1)
 ATAF="http://www.temporealeataf.it/Mixer/Rest/PublicTransportService.svc/schedule?nodeID=$1&lat=43.8&lon=11.2&s=$s"
