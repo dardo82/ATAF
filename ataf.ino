@@ -1,15 +1,8 @@
-// ATAF
-
-int BP=13;
-int BS=0;
-
 void setup(){
     Serial.begin(9600);
-    pinMode(BP,INPUT);
+    pinMode(13,INPUT);
 }
 void loop(){
-    BS=digitalRead(BP);
-    Serial.print("BS=");
-    Serial.println(BS);
+    Serial.println(digitalRead(13));
     delay(1000);
 }
