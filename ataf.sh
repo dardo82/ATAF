@@ -12,7 +12,7 @@ echo -e \\n${(U)${$(date '+%a %x %X')//.//}%:*} >> ataf.lcd
 awk '/:/{sub(/:/," e ",$3); print "Sono le ore "$3"."}' ataf.lcd > ataf.tts
 awk '/^[[:alnum:]]{2} /{cl=""; for(i=2; i<=NF-1;++i)cl=cl" "$i; print "Linea "$1" per"cl" in arrivo fra "$NF" minuti."}' ataf.lcd >> ataf.tts
 
-EID="2"; LID="7"; VID="1"; EXT="mp3"; ACC="5580377"; API="2470351"; SECRET="adaf0aea0042516ba9033a03f40d8489"
+EID="2"; LID="7"; VID="1"; EXT="mp3"; ACC="5601616"; API="2473315"; SECRET="4651e343cf9699cc9b73b597ad8857d2"
 TTS="http://www.vocalware.com/tts/gen.php?EID=$EID&LID=$LID&VID=$VID&EXT=$EXT&ACC=$ACC&API=$API"
 
 curl $(awk -v tts=$TTS -v s=$SECRET '{split(tts,a,/=|&/); gsub(/ /,"\\ ",$0); cmd="printf "a[2]a[4]a[6]$0a[8]a[10]a[12]s" | openssl md5"; \
