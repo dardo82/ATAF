@@ -20,6 +20,6 @@ Build the circuit on a breadboard and load the sketch on the Arduino.
 
 On the RaspBerry Pi run this at boot (appendding it to ``/etc/rc.local``):
 
-`while true; do grep -q BS=1 /dev/cu.usbmodemfd1321 && /home/pi/ataf.sh FM0020; done &`.
+`while true; do grep 1 /dev/cu.usbmodemfd1321 && /home/pi/ataf.sh FM0020; done &`.
 
 Change the device file to the one of your Arduino and the path of the script to where you have put it.
