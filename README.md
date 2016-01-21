@@ -1,19 +1,14 @@
 # ATAF
-
 Get and speak Florence's bus system timetables.
 
 
 ## Shell
-
-Run the shell script giving a bus stop code as argument.
-
-`./ataf.sh FM0020`
+Run the shell script giving a bus stop code as argument:`./ataf.sh FM0020`.
 
 Refer to http://www.temporealeataf.it/ to get them.
 
 
 ## RaspBerry Pi & Arduino
-
 To make a bus stop that speaks at the push of a button, you can use a RaspBerry Pi and an Arduino.
 
 Build the circuit on a breadboard and load the sketch on the Arduino.
