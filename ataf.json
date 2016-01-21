@@ -1,30 +1,6 @@
 [
   {
-    "d": "58860000",
-    "id": "",
-    "n": "11",
-    "r": true,
-    "rid": null,
-    "t": "SALVIATINO"
-  },
-  {
-    "d": "59040000",
-    "id": "",
-    "n": "C2",
-    "r": true,
-    "rid": null,
-    "t": "LEOPOLDA"
-  },
-  {
-    "d": "59100000",
-    "id": "",
-    "n": "6A",
-    "r": true,
-    "rid": null,
-    "t": "NOVELLI"
-  },
-  {
-    "d": "59340000",
+    "d": "45720000",
     "id": "",
     "n": "22",
     "r": true,
@@ -32,7 +8,39 @@
     "t": "NOVOLI VIA VALDINIEVOLE"
   },
   {
-    "d": "59400000",
+    "d": "45780000",
+    "id": "",
+    "n": "11",
+    "r": true,
+    "rid": null,
+    "t": "SALVIATINO"
+  },
+  {
+    "d": "46140000",
+    "id": "",
+    "n": "22",
+    "r": true,
+    "rid": null,
+    "t": "NOVOLI VIA VALDINIEVOLE"
+  },
+  {
+    "d": "46380000",
+    "id": "",
+    "n": "11",
+    "r": true,
+    "rid": null,
+    "t": "SALVIATINO"
+  },
+  {
+    "d": "46560000",
+    "id": "",
+    "n": "22",
+    "r": true,
+    "rid": null,
+    "t": "NOVOLI VIA VALDINIEVOLE"
+  },
+  {
+    "d": "46620000",
     "id": "",
     "n": "C2",
     "r": true,
@@ -40,7 +48,15 @@
     "t": "LEOPOLDA"
   },
   {
-    "d": "59580000",
+    "d": "46800000",
+    "id": "",
+    "n": "6A",
+    "r": true,
+    "rid": null,
+    "t": "NOVELLI"
+  },
+  {
+    "d": "46860000",
     "id": "",
     "n": "6B",
     "r": true,
@@ -48,7 +64,15 @@
     "t": "NOVELLI"
   },
   {
-    "d": "59700000",
+    "d": "47100000",
+    "id": "",
+    "n": "22",
+    "r": true,
+    "rid": null,
+    "t": "NOVOLI VIA VALDINIEVOLE"
+  },
+  {
+    "d": "47160000",
     "id": "",
     "n": "11",
     "r": true,
@@ -56,59 +80,11 @@
     "t": "SALVIATINO"
   },
   {
-    "d": "59880000",
-    "id": "",
-    "n": "22",
-    "r": true,
-    "rid": null,
-    "t": "NOVOLI VIA VALDINIEVOLE"
-  },
-  {
-    "d": "59940000",
-    "id": "",
-    "n": "22",
-    "r": true,
-    "rid": null,
-    "t": "NOVOLI VIA VALDINIEVOLE"
-  },
-  {
-    "d": "60060000",
-    "id": "",
-    "n": "22",
-    "r": true,
-    "rid": null,
-    "t": "NOVOLI VIA VALDINIEVOLE"
-  },
-  {
-    "d": "60180000",
-    "id": "",
-    "n": "C2",
-    "r": true,
-    "rid": null,
-    "t": "LEOPOLDA"
-  },
-  {
-    "d": "60240000",
+    "d": "47220000",
     "id": "",
     "n": "6A",
     "r": true,
     "rid": null,
     "t": "NOVELLI"
-  },
-  {
-    "d": "60420000",
-    "id": "",
-    "n": "C2",
-    "r": false,
-    "rid": null,
-    "t": "LEOPOLDA"
-  },
-  {
-    "d": "60480000",
-    "id": "",
-    "n": "22",
-    "r": true,
-    "rid": null,
-    "t": "NOVOLI VIA VALDINIEVOLE"
   }
 ]
