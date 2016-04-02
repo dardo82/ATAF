@@ -7,6 +7,6 @@ awk "BEGIN{slnr=$SLNR; dev=\"$DEV\"}" 'NR<slnr{print "echo -n -e \"\\xFE\\xC0"$0
 echo -n -e "\xFE\x01" > $DEV; kill %%; sleep 1; kill %% }
 
 LINK=$(readlink $0); BIN=${LINK:-${0/.\//$PWD\/}}; NAME=${${BIN##/*/}%.*}
-DIR=${BIN%/*}; LCD="../txt/$NAME.lcd"; DEV=$(/dev/cu.usbmodem*)
+DIR=${BIN%/*}; LCD="../txt/$NAME.lcd"; DEV=(/dev/cu.usbmodem*)
 
 cd $DIR; while true; do _ataf_lcd $1; done
