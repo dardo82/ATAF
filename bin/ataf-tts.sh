@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-BIN=${0:A}; DIR=${BIN%/*}; NAME=${${BIN##/*/}%%(-*)#.[^/]##}; LCD=$NAME.lcd; TTS=$NAME.tts
+BIN=${0:A}; DIR=${BIN%/*}; NAME=${${${BIN##/*/}%.*}%%-*}; LCD=$NAME.lcd; TTS=$NAME.tts
 
 cd $DIR/../txt; awk '/:/{print "Sono le ore "$3"."}' $LCD > $TTS
 
@@ -13,4 +13,4 @@ ACCEPT="audio/flac"; VOICE="it-IT_FrancescaVoice"
 IBM="https://$CRED@stream.watsonplatform.net/text-to-speech\
 /api/v1/synthesize?accept=$ACCEPT\&voice=$VOICE\&text="
 
-curl $(sed "s/ /%20/g;s#^#$IBM#" $TTS) | play -q -t flac -
+curl $(sed "s/ /%20/g;s#^#$IBM#" $TTS) | play -t flac -
