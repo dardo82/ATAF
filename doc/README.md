@@ -3,25 +3,21 @@ Get and speak Florence's bus system timetables.
 
 
 
+## Arduino
+To make a bus stop that shows timetables and speaks them use an Arduino Yùn.
+
+I've used an Uno so the ethernet part of the sketch is missing from the ino.
+
+Build the circuit on a breadboard then load the sketch on the Arduino board.
+
+
 ## Install
 To install this software run the following command in ZSH:
 
-`curl https://raw.githubusercontent.com/dardo82/ATAF/master/setup.sh | zsh`
+`curl -L raw.githubusercontent.com/dardo82/ATAF/master/bin/install.sh | zsh`
 
 
 ## Shell (ZSH)
-The script needs a bus stop code as argument:``ataf FM0571``.
+The script needs a bus stop code as argument:``ataf FM0571 &``.
 
 Refer to http://www.temporealeataf.it/ to get them.
-
-
-## RaspBerryPi & Arduino
-To make a bus stop that speaks on demand use a RaspBerryPi and an Arduino.
-
-Build the circuit on a breadboard and load the sketch on the Arduino.
-
-On the RaspBerry Pi run this at boot (appendding it to ``/etc/rc.local``):
-
-`while true; do grep -q 1 /dev/cu.usbmodem* && ataf FM0571; done &`.
-
-Note: set the right device file if you have more than one Arduino connected.
