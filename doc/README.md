@@ -18,6 +18,6 @@ To install this software run the following command in ZSH:
 
 
 ## Shell (ZSH)
-The script needs a bus stop code as argument:``ataf FM0571 &``.
+The script needs a bus stop code as argument:``ataf FM0020 &``.
 
 Refer to http://www.temporealeataf.it/ to get them.
