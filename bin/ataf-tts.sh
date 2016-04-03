@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-BIN=${0:A}; DIR=${BIN%/*}; NAME=${${BIN##/*/}%.*}; LCD=$NAME.lcd; TTS=$NAME.tts
+BIN=${0:A}; DIR=${BIN%/*}; NAME=${${BIN##/*/}%%(-*)#.[^/]##}; LCD=$NAME.lcd; TTS=$NAME.tts
 
 cd $DIR/../txt; awk '/:/{print "Sono le ore "$3"."}' $LCD > $TTS
 
