@@ -1,5 +1,5 @@
 # ATAF
-Get and speak Florence's bus system timetables.
+Show and speak Florence's bus system timetables.
 
 
 
