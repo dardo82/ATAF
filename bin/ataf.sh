@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 function _ataf_lcd () {
+
 ./$NAME-lcd.sh $1; while true; do grep -q 1 $DEV && ./$NAME-tts.sh $1; done &;
 
 SLNR=$(awk END{print\ NR-1} $LCD); cat $DEV > /dev/null &; sleep 2; awk END{print} $LCD > $DEV;
@@ -10,7 +11,6 @@ awk -F\\t '/'"'"'$/{printf "%s\t%.8s\t%s\n", $1, $2, $3; for (i=1; i<=1+length($
 
 echo -n -e "\xFE\x01" > $DEV; kill %%; sleep 2; kill %%; }
 
-LINK=$(readlink $0); BIN=${LINK:-${0/.\//$PWD\/}}; NAME=${${BIN##/*/}%.*}
-DIR=${BIN%/*}; LCD="../txt/$NAME.lcd"; DEV=(/dev/cu.usbmodem*)
+BIN=${0:A}; DIR=${BIN%/*}; NAME=${${BIN##/*/}%.*}; LCD="../txt/$NAME.lcd"; DEV=(/dev/cu.usbmodem*)
 
 cd $DIR; while true; do _ataf_lcd $1; done
