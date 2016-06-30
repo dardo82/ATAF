@@ -1,1 +1,9 @@
-[{"d":"32580000","id":"","n":"6B","r":true,"rid":null,"t":"NOVELLI"},{"d":"32820000","id":"","n":"C2","r":true,"rid":null,"t":"LEOPOLDA"},{"d":"33060000","id":"","n":"11","r":false,"rid":null,"t":"SALVIATINO"},{"d":"33180000","id":"","n":"22","r":true,"rid":null,"t":"NOVOLI VIA VALDINIEVOLE"},{"d":"33540000","id":"","n":"22","r":true,"rid":null,"t":"NOVOLI VIA VALDINIEVOLE"}]
+[{"d":"66360000","id":"","n":"C2","r":true,"rid":null,"t":"LEOPOLDA"},
+{"d":"66540000","id":"","n":"22","r":true,"rid":null,"t":"NOVOLI VIA VALDINIEVOLE"},
+{"d":"66660000","id":"","n":"11","r":true,"rid":null,"t":"SALVIATINO"},
+{"d":"66660000","id":"","n":"6B","r":true,"rid":null,"t":"NOVELLI"},
+{"d":"67020000","id":"","n":"C2","r":true,"rid":null,"t":"LEOPOLDA"},
+{"d":"67260000","id":"","n":"22","r":true,"rid":null,"t":"NOVOLI VIA VALDINIEVOLE"},
+{"d":"67860000","id":"","n":"11","r":true,"rid":null,"t":"SALVIATINO"},
+{"d":"67860000","id":"","n":"22","r":true,"rid":null,"t":"NOVOLI VIA VALDINIEVOLE"},
+{"d":"67920000","id":"","n":"6A","r":true,"rid":null,"t":"NOVELLI"}]
